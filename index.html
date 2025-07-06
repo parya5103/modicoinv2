@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MODICOIN V2 - Powering Digital Bharat</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0a0f24;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1592496001020-e3c28b89e18d?auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+      padding: 60px 20px;
+      text-align: center;
+      position: relative;
+    }
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+    }
+    header * {
+      position: relative;
+      z-index: 2;
+    }
+    header img {
+      width: 90px;
+      border-radius: 50%;
+    }
+    header h1 {
+      font-size: 2.8em;
+      margin: 0.4em 0 0.1em;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #00c3ff;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #101b3f;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #00c3ff;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #00c3ff;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+      font-size: 1.8em;
+    }
+    .tokenomics {
+      background: #15244a;
+      padding: 25px;
+      border-radius: 12px;
+    }
+    .tokenomics p {
+      margin: 10px 0;
+    }
+    .nft-gallery {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .nft-gallery img {
+      width: 200px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    }
+    footer {
+      background: #0e1731;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: #00c3ff;
+      text-decoration: none;
+    }
+    .button {
+      display: inline-block;
+      background: #00c3ff;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .button:hover {
+      background: #00a5dd;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="ModiCoin Logo">
+  <h1>MODICOIN V2</h1>
+  <p>Powering Digital Bharat 🇮🇳</p>
+</header>
+
+<nav>
+  <a href="#overview">Overview</a>
+  <a href="#swap">Swap</a>
+  <a href="#nft">NFTs</a>
+  <a href="#whitepaper">Whitepaper</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="overview">
+  <h2>Token Overview</h2>
+  <div class="tokenomics">
+    <p><strong>Token Name:</strong> ModiCoin</p>
+    <p><strong>Symbol:</strong> MODI</p>
+    <p><strong>Total Supply:</strong> 10,000,000,000</p>
+    <p><strong>Contract Address:</strong> <code>0x614BDd4F2704e2B1EA4518876ae9f7aeE354E407</code></p>
+    <p><strong>Creator Wallet:</strong> <code>0xe26E6bc707B6a02eA2264950424eD3b8CFB55166</code></p>
+  </div>
+</section>
+
+<section id="swap">
+  <h2>Swap MODICOIN</h2>
+  <p>You can buy or sell ModiCoin using PancakeSwap:</p>
+  <a href="https://pancakeswap.finance/swap?outputCurrency=0x614BDd4F2704e2B1EA4518876ae9f7aeE354E407" class="button" target="_blank">Swap on PancakeSwap</a>
+</section>
+
+<section id="nft">
+  <h2>Our NFT Collection</h2>
+  <div class="nft-gallery">
+    <img src="https://via.placeholder.com/200x200?text=NFT+1" alt="NFT 1">
+    <img src="https://via.placeholder.com/200x200?text=NFT+2" alt="NFT 2">
+    <img src="https://via.placeholder.com/200x200?text=NFT+3" alt="NFT 3">
+  </div>
+</section>
+
+<section id="whitepaper">
+  <h2>Whitepaper</h2>
+  <p>Download the full whitepaper to understand the MODICOIN V2 vision:</p>
+  <a href="modicoin_whitepaper.pdf" class="button" target="_blank">📄 View Whitepaper</a>
+</section>
+
+<section id="contact">
+  <h2>Connect With Us</h2>
+  <p><strong>Telegram:</strong> <a href="https://t.me/modicoin" target="_blank">@modicoin</a></p>
+  <p><strong>Email:</strong> <a href="mailto:aaryapratik@gmail.com">aaryapratik@gmail.com</a></p>
+  <div class="social-icons">
+    <a href="https://twitter.com/modicoin" target="_blank">🐦 Twitter</a>
+    <a href="https://t.me/modicoin" target="_blank">📢 Telegram</a>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 MODICOIN V2. All rights reserved.
+</footer>
+
+</body>
+</html>
